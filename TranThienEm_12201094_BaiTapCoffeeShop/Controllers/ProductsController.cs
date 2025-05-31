@@ -5,18 +5,18 @@ namespace TranThienEm_12201094_BaiTapCoffeeShop.Controllers
 {
     public class ProductsController : Controller
     {
-        private IProductRepository productRepository;
+        private IProductRepository ProductRepository;
         public ProductsController(IProductRepository productRepository)
         {
-            this.productRepository = productRepository;
+            this.ProductRepository = productRepository;
         }
         public IActionResult Shop()
         {
-            return View(productRepository.GetAllProducts());
+            return View(ProductRepository.GetAllProducts());
         }
         public IActionResult Detail(int id)
         {
-            var product = productRepository.GetProductDetail(id);
+            var product = ProductRepository.GetProductDetail(id);
             if (product == null)
             {
                 return NotFound();

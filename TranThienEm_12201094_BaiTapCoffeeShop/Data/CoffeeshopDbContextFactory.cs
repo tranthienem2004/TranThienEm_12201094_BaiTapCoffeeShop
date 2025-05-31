@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Design;
 using TranThienEm_12201094_BaiTapCoffeeShop.Data;
 
-namespace CoffeeShop.Data
+namespace TranThienEm_12201094_BaiTapCoffeeShop.Data
 {
     public class CoffeeshopDbContextFactory : IDesignTimeDbContextFactory<CoffeeshopDbContext>
     {

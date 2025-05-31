@@ -13,6 +13,8 @@ namespace TranThienEm_12201094_BaiTapCoffeeShop.Controllers
         {
             this.ProductRepository = productRepository;
         }
+
+
         public IActionResult Index()
         {
             return View(ProductRepository.GetTrendingProducts());

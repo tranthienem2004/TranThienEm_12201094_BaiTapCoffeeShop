@@ -11,8 +11,8 @@ using TranThienEm_12201094_BaiTapCoffeeShop.Data;
 namespace TranThienEm_12201094_BaiTapCoffeeShop.Migrations
 {
     [DbContext(typeof(CoffeeshopDbContext))]
-    [Migration("20250522171951_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20250531085128_FirstCreate")]
+    partial class FirstCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

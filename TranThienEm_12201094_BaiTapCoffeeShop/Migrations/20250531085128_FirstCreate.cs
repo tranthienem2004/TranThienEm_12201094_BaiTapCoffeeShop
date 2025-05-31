@@ -7,7 +7,7 @@
 namespace TranThienEm_12201094_BaiTapCoffeeShop.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class FirstCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

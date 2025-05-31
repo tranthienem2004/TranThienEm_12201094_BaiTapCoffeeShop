@@ -1,11 +1,12 @@
 ﻿using TranThienEm_12201094_BaiTapCoffeeShop.Models;
+using System.Reflection.Metadata.Ecma335;
 
 namespace TranThienEm_12201094_BaiTapCoffeeShop.Models.Interfaces
 {
     public interface IProductRepository
     {
-        IEnumerable<Products> GetAllProducts();
-        IEnumerable<Products> GetTrendingProducts();
-        Products? GetProductDetail(int id);
+        public IEnumerable<Products> GetAllProducts();
+        public IEnumerable<Products> GetTrendingProducts();
+        public Products GetProductDetail(int id);
     }
 }

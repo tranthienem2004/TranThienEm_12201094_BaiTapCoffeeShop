@@ -7,6 +7,56 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\Coffee Shop Template\assets\bootstrap\css\bootstrap-grid.min.css" />
+    <None Include="wwwroot\Coffee Shop Template\assets\bootstrap\css\bootstrap-reboot.min.css" />
+    <None Include="wwwroot\Coffee Shop Template\assets\bootstrap\css\bootstrap.min.css" />
+    <None Include="wwwroot\Coffee Shop Template\assets\bootstrap\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\Coffee Shop Template\assets\dropdown\css\style.css" />
+    <None Include="wwwroot\Coffee Shop Template\assets\dropdown\js\navbar-dropdown.js" />
+    <None Include="wwwroot\Coffee Shop Template\assets\formoid\formoid.min.js" />
+    <None Include="wwwroot\Coffee Shop Template\assets\images\anna-bratiychuk-3w2aurzeesu-unsplash-815x1223.jpg" />
+    <None Include="wwwroot\Coffee Shop Template\assets\images\brent-ninaber-vlpefxuqynm-unsplash-2000x1125.jpg" />
+    <None Include="wwwroot\Coffee Shop Template\assets\images\coffee-beans-2258839-960.jpg" />
+    <None Include="wwwroot\Coffee Shop Template\assets\images\coffee-icon-sign-symbol-design-free-png.webp" />
+    <None Include="wwwroot\Coffee Shop Template\assets\images\giancarlo-duarte-rthw0pwclhw-unsplash-815x543.jpg" />
+    <None Include="wwwroot\Coffee Shop Template\assets\images\jeremy-yap-jn-hagwe4yw-unsplash-815x1223.jpg" />
+    <None Include="wwwroot\Coffee Shop Template\assets\images\mbr-1920x1372.jpg" />
+    <None Include="wwwroot\Coffee Shop Template\assets\images\mohammad-amirahmadi-tk2ifgn60xo-unsplash-815x1019.jpg" />
+    <None Include="wwwroot\Coffee Shop Template\assets\images\nathan-dumlao-nbjho6wmrww-unsplash-815x1223.jpg" />
+    <None Include="wwwroot\Coffee Shop Template\assets\images\tetiana-shyshkina-4lqjr8gu-bg-unsplash-815x1222.jpg" />
+    <None Include="wwwroot\Coffee Shop Template\assets\mobirise\css\mbr-additional.css" />
+    <None Include="wwwroot\Coffee Shop Template\assets\parallax\jarallax.css" />
+    <None Include="wwwroot\Coffee Shop Template\assets\parallax\jarallax.js" />
+    <None Include="wwwroot\Coffee Shop Template\assets\smoothscroll\smooth-scroll.js" />
+    <None Include="wwwroot\Coffee Shop Template\assets\socicon\css\styles.css" />
+    <None Include="wwwroot\Coffee Shop Template\assets\socicon\fonts\socicon.eot" />
+    <None Include="wwwroot\Coffee Shop Template\assets\socicon\fonts\socicon.svg" />
+    <None Include="wwwroot\Coffee Shop Template\assets\socicon\fonts\socicon.ttf" />
+    <None Include="wwwroot\Coffee Shop Template\assets\socicon\fonts\socicon.woff" />
+    <None Include="wwwroot\Coffee Shop Template\assets\socicon\fonts\socicon.woff2" />
+    <None Include="wwwroot\Coffee Shop Template\assets\theme\css\style.css" />
+    <None Include="wwwroot\Coffee Shop Template\assets\theme\js\script.js" />
+    <None Include="wwwroot\Coffee Shop Template\assets\web\assets\mobirise-icons-bold\mobirise-icons-bold.css" />
+    <None Include="wwwroot\Coffee Shop Template\assets\web\assets\mobirise-icons-bold\mobirise-icons-bold.eot" />
+    <None Include="wwwroot\Coffee Shop Template\assets\web\assets\mobirise-icons-bold\mobirise-icons-bold.svg" />
+    <None Include="wwwroot\Coffee Shop Template\assets\web\assets\mobirise-icons-bold\mobirise-icons-bold.ttf" />
+    <None Include="wwwroot\Coffee Shop Template\assets\web\assets\mobirise-icons-bold\mobirise-icons-bold.woff" />
+    <None Include="wwwroot\Coffee Shop Template\assets\web\assets\mobirise-icons2\mobirise2.css" />
+    <None Include="wwwroot\Coffee Shop Template\assets\web\assets\mobirise-icons2\mobirise2.eot" />
+    <None Include="wwwroot\Coffee Shop Template\assets\web\assets\mobirise-icons2\mobirise2.svg" />
+    <None Include="wwwroot\Coffee Shop Template\assets\web\assets\mobirise-icons2\mobirise2.ttf" />
+    <None Include="wwwroot\Coffee Shop Template\assets\web\assets\mobirise-icons2\mobirise2.woff" />
+    <None Include="wwwroot\Coffee Shop Template\assets\ytplayer\index.js" />
+    <None Include="wwwroot\Coffee Shop Template\cart.html" />
+    <None Include="wwwroot\Coffee Shop Template\contact.html" />
+    <None Include="wwwroot\Coffee Shop Template\detail.html" />
+    <None Include="wwwroot\Coffee Shop Template\index.html" />
+    <None Include="wwwroot\Coffee Shop Template\shipping.html" />
+    <None Include="wwwroot\Coffee Shop Template\shop.html" />
+    <None Include="wwwroot\Coffee Shop Template\shopping-cart.html" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.5">

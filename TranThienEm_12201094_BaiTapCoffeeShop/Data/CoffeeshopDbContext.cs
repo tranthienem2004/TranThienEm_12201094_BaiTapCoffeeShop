@@ -10,7 +10,6 @@ namespace TranThienEm_12201094_BaiTapCoffeeShop.Data
         {
         }
         public DbSet<Products> Products { get; set; }
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
