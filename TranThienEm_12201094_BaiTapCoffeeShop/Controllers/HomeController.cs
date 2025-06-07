@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
+using TranThienEm_12201094_BaiTapCoffeeShop.Data;
 using TranThienEm_12201094_BaiTapCoffeeShop.Models;
 using TranThienEm_12201094_BaiTapCoffeeShop.Models.Interfaces;
 

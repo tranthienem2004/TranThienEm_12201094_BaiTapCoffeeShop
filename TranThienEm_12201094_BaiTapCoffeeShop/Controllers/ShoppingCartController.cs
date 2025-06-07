@@ -1,5 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using TranThienEm_12201094_BaiTapCoffeeShop.Models.Interfaces;
 using TranThienEm_12201094_BaiTapCoffeeShop.Models.Interfaces;
+using Microsoft.AspNetCore.Mvc;
 
 namespace TranThienEm_12201094_BaiTapCoffeeShop.Controllers
 {
@@ -14,6 +15,7 @@ shoppingCartRepository, IProductRepository productRepository)
             this.productRepository = productRepository;
 
         }
+
         public IActionResult Index()
         {
             var items = shoppingCartRepository.GetAllShoppingCartItems();
@@ -21,6 +23,7 @@ shoppingCartRepository, IProductRepository productRepository)
             ViewBag.TotalCart = shoppingCartRepository.GetShoppingCartTotal();
             return View(items);
         }
+
         public RedirectToActionResult AddToShoppingCart(int pId)
         {
             var product = productRepository.GetAllProducts().FirstOrDefault(p => p.Id == pId);
@@ -32,6 +35,7 @@ shoppingCartRepository, IProductRepository productRepository)
             }
             return RedirectToAction("Index");
         }
+
         public RedirectToActionResult RemoveFromShoppingCart(int id)
         {
             var product = productRepository.GetAllProducts().FirstOrDefault(p => p.Id == id);

@@ -1,18 +1,24 @@
-﻿
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using TranThienEm_12201094_BaiTapCoffeeShop.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 namespace TranThienEm_12201094_BaiTapCoffeeShop.Data
 {
-    public class CoffeeshopDbContext : DbContext
+    public class CoffeeshopDbContext : IdentityDbContext
     {
         public CoffeeshopDbContext(DbContextOptions<CoffeeshopDbContext> options) : base(options)
         {
         }
+
         public DbSet<Products> Products { get; set; }
-        public DbSet<ShoppingCartItem> ShoppingCartItems { get; set; }
-        public DbSet<Order> Order { get; set; }
-        public DbSet<OrderDetail> OrderDetails { get; set; }
+
+        public DbSet<Models.ShoppingCartItem> ShoppingCartItems { get; set; }
+
+        public DbSet<Models.Order> Orders { get; set; }
+
+        public DbSet<Models.OrderDetail> OrderDetails { get; set; }
+        // Seed data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

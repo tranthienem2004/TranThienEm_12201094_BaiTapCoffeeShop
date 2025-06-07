@@ -2,6 +2,7 @@
 {
     public interface IOrderRepository
     {
-        public void PlaceOrder(Order order);
+        List<Order> GetOrdersByEmail(string email);
+        void PlaceOrder(Order order);
     }
 }
