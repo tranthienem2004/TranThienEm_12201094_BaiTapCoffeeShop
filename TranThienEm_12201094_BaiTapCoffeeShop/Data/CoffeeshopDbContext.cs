@@ -1,7 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore;
-using TranThienEm_12201094_BaiTapCoffeeShop.Models;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using TranThienEm_12201094_BaiTapCoffeeShop.Models;
+using TranThienEm_12201094_BaiTapCoffeeShop.Models.Services;
 
 namespace TranThienEm_12201094_BaiTapCoffeeShop.Data
 {
@@ -18,6 +19,11 @@ namespace TranThienEm_12201094_BaiTapCoffeeShop.Data
         public DbSet<Models.Order> Orders { get; set; }
 
         public DbSet<Models.OrderDetail> OrderDetails { get; set; }
+
+        public DbSet<Notification> Notifications { get; set; }
+
+        public DbSet<Message> Messages { get; set; }
+
         // Seed data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

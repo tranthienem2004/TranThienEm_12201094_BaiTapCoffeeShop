@@ -41,4 +41,13 @@ public class OrderRepository : IOrderRepository
             .OrderByDescending(o => o.OrderPlaced)
             .ToList();
     }
+
+    public List<Order> GetAllOrders()
+    {
+        return _context.Orders
+            .Include(o => o.OrderDetails)
+            .ThenInclude(od => od.Product)
+            .OrderByDescending(o => o.OrderPlaced)
+            .ToList();
+    }
 }
